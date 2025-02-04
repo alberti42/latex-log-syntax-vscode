@@ -32,7 +32,11 @@
                 "aliases":
                 [
                     "LaTeX Log"
-                ]
+                ],
+                "extensions": [
+                    ".log"
+                ],
+                "firstLine": "^This is (?:LuaHB|pdfe?|Xe)?TeXk?, Version "
             }
         ],
         "grammars":
@@ -40,12 +44,8 @@
             {
                 "language": "latex-log",
                 "scopeName": "text.log.latex",
-                "path": "./syntaxes/LaTeXLog.tmLanguage.json"
+                "path": "./syntaxes/LaTeXLog.tmLanguage"
             }
         ]
-    },
-    "__metadata":
-    {
-        "size": 7806
     }
 }
