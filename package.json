@@ -3,7 +3,7 @@
     "displayName": "Latex Log Syntax",
     "description": "Lag log syntax highlighting from Sublime Text",
     "homepage": "https://github.com/alberti42/latex-log-syntax-vscode",
-    "publisher": "alberti42",
+    "publisher": "AndreaAlberti",
     "license": "MIT",
     "maintainers":
     [
