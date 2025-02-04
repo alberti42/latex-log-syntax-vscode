@@ -1,0 +1,51 @@
+{
+    "name": "latex-log-syntax-highlighter",
+    "displayName": "Latex Log Syntax",
+    "description": "Lag log syntax highlighting from Sublime Text",
+    "homepage": "https://github.com/alberti42/latex-log-syntax-vscode",
+    "publisher": "alberti42",
+    "license": "MIT",
+    "maintainers":
+    [
+        "Andrea Alberti"
+    ],
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/alberti42/latex-log-syntax-vscode"
+    },
+    "version": "1.0.0",
+    "engines":
+    {
+        "vscode": "^1.50.0"
+    },
+    "contributes":
+    {
+        "languages":
+        [
+            {
+                "id": "latex-log",
+                "fileTypes":
+                [
+                    "log"
+                ],
+                "aliases":
+                [
+                    "LaTeX Log"
+                ]
+            }
+        ],
+        "grammars":
+        [
+            {
+                "language": "latex-log",
+                "scopeName": "text.log.latex",
+                "path": "./syntaxes/LaTeXLog.tmLanguage.json"
+            }
+        ]
+    },
+    "__metadata":
+    {
+        "size": 7806
+    }
+}
