@@ -46,14 +46,6 @@ This extension recognizes and highlights the following syntax patterns:
 
 Once the extension is installed, any LaTeX log file (typically with the `.log` extension) will be automatically associated with the LaTeX Log syntax, providing syntax highlighting throughout the file.
 
-You can also configure file associations for `.log` files in your settings:
-
-```json
-"files.associations": {
-  "*.log": "latex-log"
-}
-```
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
